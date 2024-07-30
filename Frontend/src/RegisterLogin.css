@@ -1,0 +1,148 @@
+.containerreg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(assets/AdirondackCC-girls-roomates.jpg);
+    background-repeat: no-repeat;
+    /* backdrop-filter: blur(10px); */
+    background-color: rgba(0,0,0,0.8);
+    background-size: cover;
+    /* Set background color for the page */
+    /* margin-top: -10px;
+    position:relative;
+    top:-200px; */
+}
+
+.form-wrapper {
+    width: 400px;
+    padding: 10px;
+    background: transparent;
+    /* Set background color for the form */
+    border: 2px solid black;
+    border-radius: 10px;
+    /* Increase border radius for a smoother look */
+    box-shadow: 5px 0px 40px 0px rgb(0, 0, 0);
+    /* Add a subtle shadow for depth */
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    /* Increase margin between form groups */
+    width: auto;
+    text-align: center;
+    color: black;
+}
+.loginbutton{
+    margin-left:130px;
+    width:80px;
+    margin-top:15px;   
+    font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+button {
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    /* Add border to inputs for better distinction */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    /* Set background color for inputs */
+    transition: border-color 0.3s ease;
+    /* Add transition effect for better interactivity */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+    outline: none;
+    border-color: #007bff;
+    /* Change border color on focus for emphasis */
+}
+.passreg{
+    margin-top:-100px !important;
+    margin-bottom:20px;
+}
+button {
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(207, 42, 53);
+    /* Set background color for buttons */
+    color: white;
+    padding: 10px 5px;
+    /* Set text color for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    /* Add transition effect for better interactivity */
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Change background color on hover for better feedback */
+}
+.loginh2{
+    margin-bottom:20px;
+    font-family: light italic;
+    text-align: center;
+    color: white;
+}
+/* .emailinput{
+    margin-bottom: -20px;
+} */
+.passinput{
+    margin-top: -100px;
+}
+.switch-button {
+    margin: 10px 20px;
+    /* Add margin top for the switch button */
+    background-color: #28a745;
+    font-weight: bold;
+    /* Set background color for the switch button */
+}
+
+.switch-button:hover {
+    background-color: #218838;
+    /* Change background color on hover for the switch button */
+}
+
+.link {
+    color: #ebeee9;
+    /* Set text color for links */
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top:10px;
+    font:bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+    /* Add underline effect on hover for links */
+}
+.emailinputemail{
+    position: relative;
+    top:-200px;
+    margin-bottom:30px;
+}
+.text-danger{
+    color:red;
+}
+.success-message{
+    color:green;
+    text-align: center;
+    font-family: italic light;
+}
+.error-message{
+    color:red;
+    text-align: center;
+    font-family: italic light;
+}

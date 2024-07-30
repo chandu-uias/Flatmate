@@ -1,0 +1,72 @@
+/* ContactPage.css */
+
+.contact-container {
+    display: flex;
+    padding-left: 5%;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    margin-top: 5%;
+    border: 2px solid rgb(173, 121, 121);
+    border-radius: 15px;
+}
+.contactPhoto{
+    width: 50%;
+    height: 560px;
+    background-image: url('assets/about2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+}
+
+.contact-form {
+    padding: 20px 0px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    /* max-width: 400px; */
+    width: 50%;
+    margin-right: 10%;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+}
+.contact-form input{
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    width: 90%;
+    background-color: #ffcc00;
+}
+
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 90%;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: rgb(207, 42, 53);
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    width: 90%;
+    padding: 10px 100px;
+}
+
+.contact-form button:hover {
+    background-color: rgb(42, 78, 207);
+}
+

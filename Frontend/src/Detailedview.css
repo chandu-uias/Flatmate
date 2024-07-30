@@ -1,0 +1,197 @@
+body {
+  overflow-x: hidden;
+}
+
+.detailed-container {
+  display: flex;
+  justify-content: center; /* Highlighted: Center horizontally */
+  width: 90%;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+}
+
+     
+.left-container {
+        background-color:#ba4b4b;  
+        width: 20%;
+        margin:3%;
+        border-radius: 10px;
+        height:60%;
+        padding-bottom: 3%;
+} 
+      
+      .img-detailed img{
+        height:6%;
+        width:60%;
+        margin: 0 5%;
+        margin-left:15% ;
+        align-items: center;
+        justify-content: center;
+        padding:7%;
+        border-radius: 170px;
+      
+      }
+      .img-description{
+        height: 5%;
+        font-size:  1.5em;
+        display: flex;
+        padding-top: 10px;
+        justify-content: center;
+        flex-direction: column;
+        /* margin-top: 30px; */
+        font-weight: bold; /* Make the text bold */
+        align-items: center; 
+
+      }
+.img-description a{
+    background-color:black;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 10px;
+}
+/* .img-description a:hover{
+  background-color: rgb(207, 42, 53);
+} */
+.img-description a i{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+      
+       .right-container {
+        background-color:rgb(244, 235, 235);
+        /* flex-basis: 60%; */
+        width: 70%;
+        border-radius: 10px;
+        margin:3% 3% 3% 3%;
+      }
+
+      .Location-detailed{
+        padding: 0;
+        /* height: 20vh; */
+        margin:2.5rem;
+        
+      }
+      .Location-detailed p{
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* color:grey ;
+        text-decoration: dashed; */
+      }
+    
+      .Location-detailed img{
+        height: 45px;
+        width: 45px;
+        border-radius: 25px;
+
+      }
+      .person-detailed{
+        border: 2px solid black;
+        border-top: hidden;
+        border-left: hidden;
+        border-right: hidden;
+        margin: 40px;
+      }
+      .BasicInfo-detailed{
+        border: 2px solid black;
+        border-top: hidden;
+        border-left: hidden;
+        border-right: hidden;
+        margin: 40px;
+      }
+      .basicheading-detailed{
+        margin-left: 40px;
+      }
+      .para-detailed{
+        display: flex;
+        justify-content:space-around ;
+      }
+      .picture-detailed{
+        border: 2px solid black;
+        border-top: hidden;
+        border-left: hidden;
+        border-right: hidden;
+        margin: 40px;
+        padding: 10px;
+      }
+      .preferences-detailed{
+        height: auto;
+        /* width: 100%; */
+        border: 2px solid black;
+        border-top: hidden;
+        border-left: hidden;
+        border-right: hidden;
+        margin: 40px;
+        padding: 10px;
+      }
+.details h2{
+  font-size: 30px;
+  font-weight: 600;
+}     
+     
+/* .preferences {
+  height: auto;
+  width: 100%;
+  background-color: whitesmoke;
+} */
+
+.preferences-row{
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  margin: 7px;
+  margin-top: 3px;
+}
+
+.preference{
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 50%; /* Make the circle */
+  padding: 15px; /* Increase padding for circle effect */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.preference-item img{
+  width: 60px;
+  height: 60px;
+  background: blue;
+  border-radius: 50%; 
+}
+
+.Highlited-detailed{
+  /* height: auto; */
+        /* width: 100%; */
+        border: 2px solid black;
+        border-top: hidden;
+        border-left: hidden;
+        border-right: hidden;
+        margin: 40px;
+        padding: 10px;
+}
+
+    .perk1-detailed{
+        background-color: #aaa;
+        color: black;
+        border-radius: 20px;
+        /* font-size: small; */
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .highlight-row-detailed{
+      display: flex;
+      justify-content: space-between;
+      border-radius: 5px;
+      margin: 5px;
+    }
+    .Amenties-detailed{
+      border: 2px solid black;
+        border-top: hidden;
+        border-left: hidden;
+        border-right: hidden;
+        margin: 40px;
+        padding: 10px;
+    }
+    

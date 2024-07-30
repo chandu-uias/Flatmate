@@ -1,0 +1,125 @@
+/* Navbar.css */
+
+
+#root{
+    margin: 0;
+    padding: 0;
+    --navbg:black;
+    --navcolor:rgb(207, 42, 53);
+}
+
+.navbarnav {
+    position: sticky;
+    top: 0;
+    background-color: #0b0b0b;
+    padding: 0px 0px;
+    z-index: 1000;
+   /* height: 15vh; */
+   width: 100vw;
+   overflow: hidden;
+}
+
+.containernav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.logo img {
+    height: 67px;
+    /* Adjust the height of the logo as needed */
+    width: auto;
+    /* Maintain aspect ratio */
+    border-radius: 5px;
+    /* padding-left: 10px; */
+    margin-left: 15px;
+
+}
+
+.nav-links {
+    list-style: none;
+    /* margin-bottom: 100px!important; */
+    padding: 0;
+  
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 5rem;
+    text-transform: uppercase;
+    
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.navactive {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    /* transition: color 0.3s; */
+    position: relative;
+}
+
+.navactive::before{
+    /* border-bottom:2px solid white; */
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color:var(--navcolor);
+    transition: width 0.4s ease-out, left 0.4s ease-out;
+}
+.navactive:hover::before{
+    width: 100%;
+    left: 0;
+}
+
+.buttonsnav {
+   display: flex;
+   justify-content: center;
+}
+
+.btnnav {
+    position:relative;
+    display: block;
+    background-color: var(--navcolor);
+    box-shadow: 2px 5px 6px rgba(255,255,255,0.4);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.btnnav:last-child{
+    margin-right: 50px;
+    color:black;
+}
+.btnnav::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--navcolor);
+    transition: left 0.4s ease-out;
+    z-index: -1;
+}
+.btnnav:hover::before{
+    /* width: 100%; */
+    left: 0;
+}
+.btnnav:hover{
+    color:var(--navbg);
+    transition: color .4s ease-in-out;
+}

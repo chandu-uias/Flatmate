@@ -1,0 +1,51 @@
+/* AboutPage.css */
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    /* Set flex-direction to column */
+    height: 100%;
+    /* Ensure the container takes up the full height */
+}
+
+.about-image {
+    margin-top: 15%;
+    background: url(assets/rmt.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    flex: 1;
+    /* Take up equal vertical space */
+}
+
+.about-description {
+    flex: 1;
+    /* Take up equal vertical space */
+    padding: 0 20px;
+    /* Add padding for better spacing */
+    margin-top: 70px;
+    margin-left: 150px;
+    word-spacing: 5px;
+
+}
+
+.about-image img {
+    width: 30vw;
+    height: 80vh;
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.about-description h2 {
+    font-size: 28px;
+    margin-top: 5px;
+
+
+}
+
+.about-description p {
+    font-size: 20px;
+    /* line-height: 1; */
+    margin-top: 5px;
+}
